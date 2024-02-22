@@ -15,6 +15,3 @@ COPY --from=build /app/src ./
 EXPOSE 8000
 
 CMD [ "./src" ]
-
-# docker build -t wagnersantos/fullcycle .
-# docker tag wagnersantos/fullcycle wagnersantos/fullcycle
